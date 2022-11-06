@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="guidancenote.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+
+  </head>
+  <body>
+
+    <header>
+      <div span style="font-size:19px;">
+      <i class="fas fa-hill">Go Hike</i>
+      </div>
+  
+      <nav class="navbar">
+          <a href="index.html">home</a>
+          <a href="result.html">Hiking Note</a>
+          <a href="#" onclick="self.close()">Exit</a>
+      </nav>
+  
+  
+  
+  </header>
+
+  <div class="mainWrapper">
+    
+    <h1>Go Hike Notes!</h1>
+    <h4>Put Your Note Below ↓</h4>
+
+    <form>
+      <div class="form-group">
+        <label>Note Name</label>
+        <input id="fileName" type="text" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label>Hiking Guidance: </label>
+        <br>
+        <textarea id="fileContents" class="form-control" rows="5"></textarea>
+      </div>
+    </form>
+    <button id="btnCreate" class="btn btn-default">Create</button>
+    <button id="btnRead" class="btn btn-default">Read</button>
+    <button id="btnDelete" class="btn btn-default">Delete</button>
+    <button id="btnUpdate" class="btn btn-default">Update</button>
+
+  
+  </div>
+
+    
+  </body>
+  <script src="main.js">
+  </script>
+</html>

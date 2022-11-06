@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>APP 🤦‍♂️</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div span style="font-size:19px;">
+    <i class="fas fa-hill">Go Hike</i>
+    </div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="guidancenote.html">Hiking Note</a>
+        <a href="#" onclick=self.close()>Exit</a>
+    </nav>
+
+
+
+
+
+</header>
+
+
+  <!---Bukit Gasing, Brogra, Batu Putih, Kundasang, Cameron Highlands-->
+    <div class="container">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Go Hike Location Tracking app</div>
+        <div class="inputs">
+          <div span style="padding-bottom: 10px;">
+          <label span style="text-align:center;">Hiking Locations</label>
+          </div>
+        
+
+<div span style="text-align:center;">
+          <form action="#">
+            <select name="" id="Hiking_Location">
+              <option value="Cameron Highlands">Cameron Highlands</option>
+              <option value="Bukit Gasing">Bukit Gasing</option>
+              <option value="Broga">Bukit Broga</option>
+              <option value="Batu Putih">Bukit Batu Putih</option>
+              <option value="Kundasang">Gunung Kinabalu (Kundasang)</option>
+              <option value="Kiara">Kiara</option>
+            </select>
+            <button onclick="buttonClicked()">Get Guidance</button>
+          </form>
+
+          
+</div>        
+        </div>
+      </div>
+
+      <div class="container1">
+        <h2 span style="font-size: 40px;">Guide for Hiking activity</h2>
+        <br>
+
+        <h2>The location temperature: </h2>
+        <p id="temp"></p>
+        <h2>The location weather: </h2>
+        <p id="weather"></p>
+        <h2>The location windspeed: </h2>
+        <p id="windspeed"></p>
+        <h2>The location pressure: </h2>
+        <p id="pressure"></p>
+        <h2>The Humidity : </h2>
+        <p id="humidity"></p>
+      </div>
+  
+
+      
+
+      
+
+
+    
+
+
+
+
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
